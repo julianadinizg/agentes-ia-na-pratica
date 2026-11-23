@@ -1,0 +1,20 @@
+# Segredos
+.env
+*.env
+credentials*.json
+service-account*.json
+
+# Dados privados ou protegidos
+dados/
+material-privado/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.chroma/
+chroma_db/
+
+# Sistema
+.DS_Store
